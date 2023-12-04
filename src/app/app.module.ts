@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
@@ -24,7 +25,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDividerModule } from '@angular/material/divider';
-import { LoginComponent } from './login.component';
+import { LoginModule } from './login/login.module';
+
+
 
 
 
@@ -36,7 +39,8 @@ import { LoginComponent } from './login.component';
   declarations: [
     AppComponent,
     EmpAddEditComponent,
-    LoginComponent,
+    
+
     
     
     
@@ -63,7 +67,7 @@ import { LoginComponent } from './login.component';
     MatSlideToggleModule,
     MatSidenavModule,
     MatDividerModule,
-    
+  
     
   ],
   providers: [],
