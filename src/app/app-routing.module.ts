@@ -13,9 +13,6 @@ const routes: Routes = [
 
  {path: 'Login', component: LoginComponent},
  {path: 'Inventory', component: AppComponent},
- { path: 'Login', loadChildren: () => import('./login/login.module').then(m => m.LoginModule) },
-  { path: 'Inventory', loadChildren: () => import('./app.module').then(m => m.AppModule) },
-  // Other routes...
 
   
   
