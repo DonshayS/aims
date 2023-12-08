@@ -9,14 +9,18 @@ import { AppComponent } from './app.component';
 
 
 
+
 const routes: Routes = [
 
  {path: 'Login', component: LoginComponent},
  {path: 'Inventory', component: AppComponent},
+<<<<<<< HEAD
 
   
   
 
+=======
+>>>>>>> e5de3f6627d218aa1a71d1b6dc5f71d9b3229448
 ];
 
 @NgModule({

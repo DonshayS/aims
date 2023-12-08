@@ -1,0 +1,11 @@
+const express = require ('express')
+const app = express('express')
+app.use (express.urlencoded())
+app.use (express.json())
+app.use(express.static("client"))
+app.use('/.npmignore', express.static('client'))
+app.get('/d', function(req,res){})
+app.post('/', function (req,res){})
+app.listen(3100, function(){
+    console.log('listening on port 3100')
+})
